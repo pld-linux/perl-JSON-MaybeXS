@@ -7,13 +7,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	JSON::MaybeXS - Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
 Name:		perl-JSON-MaybeXS
-Version:	1.003009
+Version:	1.004000
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/JSON/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3798c872e8988f6c903eca9f26c917d9
+# Source0-md5:	db61fb5515f8e2f19709a317e26dde42
 URL:		http://search.cpan.org/dist/JSON-MaybeXS/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
