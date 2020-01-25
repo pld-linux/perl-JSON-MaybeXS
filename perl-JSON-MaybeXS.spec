@@ -4,7 +4,6 @@
 #
 %define		pdir	JSON
 %define		pnam	MaybeXS
-%include	/usr/lib/rpm/macros.perl
 Summary:	JSON::MaybeXS - Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
 Name:		perl-JSON-MaybeXS
 Version:	1.004000
