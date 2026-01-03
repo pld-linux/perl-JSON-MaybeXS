@@ -7,13 +7,13 @@
 Summary:	JSON::MaybeXS - Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
 Summary(pl.UTF-8):	JSON::MaybeXS - używanie Cpanel::JSON::XS, a w przypadku braku JSON::XS lub JSON::PP
 Name:		perl-JSON-MaybeXS
-Version:	1.004003
+Version:	1.004008
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/JSON/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e46181e34588428d317932744597a7ab
+Source0:	https://www.cpan.org/modules/by-module/JSON/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	63cf8b82a0dadda0dc445f9c70141383
 URL:		https://metacpan.org/release/JSON-MaybeXS
 BuildRequires:	perl-ExtUtils-MakeMaker
 BuildRequires:	perl-devel >= 1:5.8.0
